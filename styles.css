@@ -52,22 +52,30 @@ p {
 }
 
 button {
-    align-items: center;
+	align-items: center;
 	background-color: var(--darkcyan);
 	border: none;
 	border-radius: 0.5rem;
 	color: var(--white);
-    display: flex;
+	display: flex;
 	font: 700 0.875rem "Montserrat";
 	height: 3rem;
-    justify-content: center;
+	justify-content: center;
 	width: 100%;
 }
 
+button:hover {
+	cursor: pointer;
+}
+
+button:active {
+	background-color: hsl(157, 43%, 18%);
+}
+
 footer {
-    bottom: 0;
-    position: absolute;
-    width: 100%;
+	bottom: 0;
+	position: absolute;
+	width: 100%;
 }
 
 /* Classes */
@@ -76,7 +84,7 @@ footer {
 	border-radius: 0.625rem;
 	display: flex;
 	flex-wrap: wrap;
-    margin: 1.75rem 1rem;
+	margin: 1.75rem 1rem;
 	max-width: 37.5rem;
 	overflow: hidden;
 }
@@ -115,38 +123,38 @@ footer {
 
 .icon-cart {
 	height: 1rem;
-    margin-right: 0.75rem;
+	margin-right: 0.75rem;
 	width: 1rem;
 }
 
 .attribution {
-    text-align: center;
+	text-align: center;
 }
 
 /* Media Queries */
 
 @media screen and (max-width: 630px) {
-    main {
-        height: auto;
-    }
+	main {
+		height: auto;
+	}
 
-    h1 {
-        margin-bottom: 1rem;
-    }
+	h1 {
+		margin-bottom: 1rem;
+	}
 
-    p {
-        margin-bottom: 1.5rem;
-    }
+	p {
+		margin-bottom: 1.5rem;
+	}
 
-    .product {
-        margin-bottom: 0.75rem;
-    }
+	.product {
+		margin-bottom: 0.75rem;
+	}
 
-    .content {
-        padding: 1.5rem;
-    }
+	.content {
+		padding: 1.5rem;
+	}
 
-    .price {
-        margin-bottom: 1.25rem;
-    }
+	.price {
+		margin-bottom: 1.25rem;
+	}
 }
